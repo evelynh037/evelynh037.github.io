@@ -69,7 +69,7 @@ When I’m not deep in data, you can find me enjoying a good movie, catching a s
 
   [Predictive task: Advancing Multimodal Sentiment Analysis through Enhanced Sarcasm Detection](https://github.com/VivianZhao12/Multimodal-Sentiment-Analysis-with-Sarcasm-Detection/blob/cc3cc0e82663c2637f261e495aa2daccd7a6c400/DSC190__MLFL_Sentiment_Detection.pdf)
   
-  **Sarcasm Hard to Catch? Not Anymore! This project combines text and audio to detect sarcasm, making sentiment analysis easier. From feature engineering to model building, with our well-designed sarcasm detection model, we’ve cracked the code of complex emotions—because tone says it all!**
+  **Sarcasm Hard to Catch? Not Anymore! This project combines text and audio to detect sarcasm, making sentiment analysis easier. We thoughtfully designed every step, from data collection and feature engineering to model building. With our sarcasm detection model, we’ve cracked the code of complex emotions. Because sometimes, tone says it all!**
 
   </div>
 </div>

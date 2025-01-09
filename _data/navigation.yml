@@ -15,3 +15,6 @@ main:
   
   - title: "Project"
     url: "/#Project"
+
+  - title: "Something Else"
+    url: "/#Something"

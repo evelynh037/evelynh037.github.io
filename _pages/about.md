@@ -15,44 +15,115 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<span class='anchor' id='About-me'></span>
+# 🙋‍♀️ About me
+Hi! I’m Evelyn, a fourth-year undergraduate student at UC San Diego, double majoring in Data Science and Mathematics-Economics. I’m passionate about combining data analytics with my domain knowledge to craft AI-powered solutions that reflect my commitment to thoughtfulness, responsibility, and humanity.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+When I’m not deep in data, you can find me enjoying a good movie, catching a stunning sunset at La Jolla Shores (it’s the best!), or making myself to a fresh manicure. I’m all about finding joy in the little things and keeping life vibrant and fun! ✨
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
-
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
+<span class='anchor' id='Educations'></span>
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2019.06 - 2025.07 (now)* Bachelor of Science, University of California, San Diego
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<span class='anchor' id='Research'></span>
+# 🔬 Research
+- *2024.04 - present*:    Undergraduate Researcher at [MixLab @ UCSD HDSI](https://maitrix.org/about/)
+- *2024.01 - 2024.04* :    Undergraduate Researcher at [The Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/undergrad-profiles/huang-x.html)
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+
+<span class='anchor' id='Internship-Teaching'></span>
+# 💻📝 Internships and Teaching 
+- *2023.09 - present* : I have been a Tutor for Math20A and Math10B, as well as an Instructional Assistant for Econ120A and Cogs9 at UC San Diego, supporting these courses during different quarters.
+- *2024.08 - 2024.09*: Data Analyst Intern at [POIZON](https://www.poizon.com/?srsltid=AfmBOor8QRby4vG1Z0xDrKSiUV0dd-SEuqfu7PAvYC8Wv3ocI-tVeOPU)
+- *2023.08 - 2023.10* : Business Analyst Intern at [Arthur D. Little](https://www.adlittle.com/en)
+
+<span class='anchor' id='Project'></span>
+# 🧠 Projects
+
+<div class='paper-box' >
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/twitter_project_cover.jpg' alt="Project Image" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [Storytelling Visualization: Campaigning on Twitter](https://evelynh037.github.io/dsc106-Campaigning-on-Twitter/)
+  
+
+  **Explore the "word war" of the 2016 election through this storytelling project! Using NLP, sentiment analysis, and interactive visualizations, we uncovered how candidates turned Twitter into a campaign battlefield, shaping the outcome one tweet at a time.**
+
+  [A Demo](https://youtu.be/8z-ffypoqEg?feature=shared)
+
+  </div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+    <div>
+      <img src='images/sentiment_cover.jpeg' alt="Project Image" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [Predictive task: Advancing Multimodal Sentiment Analysis through Enhanced Sarcasm Detection](https://github.com/VivianZhao12/Multimodal-Sentiment-Analysis-with-Sarcasm-Detection/blob/cc3cc0e82663c2637f261e495aa2daccd7a6c400/DSC190__MLFL_Sentiment_Detection.pdf)
+  
+  **Sarcasm Hard to Catch? Not Anymore! This project combines text and audio to detect sarcasm, making sentiment analysis easier. From feature engineering to model building, with our well-designed sarcasm detection model, we’ve cracked the code of complex emotions—because tone says it all!**
+
+  </div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+    <div>
+      <img src='images/causal_cover.jpg' alt="Project Image" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [Casual Discovery: Algorithm Comparison on Simulated Mental Health and Remote Work data ](https://github.com/VivianZhao12/CAPSTONE-Causal-Inference-between-Remote-Work-and-Mental-Health/blob/main/docs/Q1_final_report.pdf)
+
+  **Dive into this project to discover how well different causal algorithms uncover relationships between variables!  Explore how a person's work enviroment, daily habits and mental health connect in our simulated dataset.**
+
+  </div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+    <div>
+      <img src='images/car_cover.webp' alt="Project Image" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [Data Minning: Used Car Price Prediction](https://github.com/vickyli1015/DSC148_Final_Project/blob/b977119971e14d0452b6911bc472a0ffb7479124/dsc148_final__3_.pdf)
+  
+  **Ever wondered what drives the price of a second-hand car? We built an XGB Regressor that beat baseline models by over 50% in RMSE. From mileage to color quirks, we unraveled the secrets behind used car pricing with data minning! 🚗✨**
+
+  </div>
+</div>
+
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+    <div>
+      <img src='images/city_name_cover.png' alt="Project Image" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [Storytelling Visualization: Pattern of US City Names](https://fjiang316.github.io/dsc106-project3/)
+
+  **Discover how US cities got their names from around the world! Explore migration and immigration patterns through the checkboxes, hover to the points for details, and read the story to see how history shaped these connections.**
+
+  </div>
+</div>
+[Explore more project my GitHub page! ](https://github.com/evelynh037)
+Dive in and join me as I continue creating, learning, and growing! 🚀✨
+
+# 👀 Something else
+[🌅 A Stunning Sunset I Captured at La Jolla Shores
+](https://drive.google.com/file/d/1LlIU1pRL0dBsFCArbOZ4w5rvLrFnvQmw/view?usp=sharing)
+
+[💅 Nail Art I Created for Myself](https://drive.google.com/file/d/1uT7KVY08saBHqf6StVbcMGW_plXoixFg/view?usp=sharing)

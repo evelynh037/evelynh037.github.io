@@ -22,12 +22,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Xinqi Huang"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Fourth year Data Science & Economics and Mathematics Student at UC San Diego"
+  avatar           : "images/my_photo.png"
+  bio              : "Data Science & Economics and Mathematics Student at UC San Diego"
   location         : "San Diego, CA"
   email            : "xih037@ucsd.edu"
-  github           : "https://github.com/evelynh037"
-  linkedin         : "www.linkedin.com/in/xih1208"
+  github           : "evelynh037"
+  linkedin         : "xih1208"
 
 
 # Reading Files

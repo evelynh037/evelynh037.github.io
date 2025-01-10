@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore My Favorite Sunsets, San Diego and Places</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eee7d4; /* Soft background */
+            color: #333333;
+            scroll-behavior: smooth;
+        }
+
+        /* Full-Screen Header */
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            text-align: center;
+            background: linear-gradient(135deg, #f4dd9c, #fb801c); /* Morandi tones */
+            color: #333;
+            clip-path: ellipse(150% 100% at 50% 0%);
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        header h1 {
+            font-size: 3em;
+            font-family: 'Georgia', serif;
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid #333;
+            width: 0;
+            animation: typing 4s steps(40, end) infinite, reset 8s steps(1, end) infinite;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 20px 0;
+            animation: fadeIn 3.5s forwards;
+            opacity: 0;
+        }
+        button.arrow-button {
+            position: absolute;
+            bottom: 30px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            animation: bounce 1.5s infinite;
+        }
+        button.arrow-button img {
+            width: 40px;
+            height: auto;
+        }
+
+        @keyframes typing {
+            0% { width: 0; }
+            50% { width: 80%; } /* Fully typed */
+            90% { width: 80%; } /* Pause at full text */
+            100% { width: 0; }  /* Start retyping */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        /* Gallery Section */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Three images per row */
+            gap: 20px;
+            padding: 2em;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .gallery-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .caption {
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 2em 0;
+            background: #edbc78; /* Light Morandi gray */
+            color: #333;
+            font-size: 1.1em;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr); /* Two images per row */
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery {
+                grid-template-columns: 1fr; /* One image per row */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore My Favorite Sunsets and Places</h1>
+        <p style="font-family: 'Times New Roman', serif; max-width: 800px; margin: 20px auto; font-size: 1.2em; line-height: 1.8em; text-align: center;">
+            I’ve always loved going to the beach, whether alone or with friends. Walking barefoot on the sand, listening to the waves crash and retreat, I feel an unexplainable calm. As the sun dips below the horizon, painting the sky in shades of gold and pink, it feels like a moment meant just for me and my thoughts.
+        </p>
+        <button class="arrow-button" onclick="scrollToGallery()">
+            <img src="https://cdn-icons-png.flaticon.com/512/2989/2989988.png" alt="Down Arrow">
+        </button>
+    </header>
+
+    <main>
+        <section class="gallery" id="gallery">
+            <div class="gallery-item">
+                <img src="/images/sunset.jpeg" alt="Sunset 1">
+                <p class="caption">2024-12 La Jolla Shore</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/sunset1.jpeg" alt="Sunset 2">
+                <p class="caption">2022-03 La Jolla Shore</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/sunset2.jpeg" alt="Sunset 3">
+                <p class="caption">2024-05 La Jolla Shore</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/sunset3.jpeg" alt="Sunset 4">
+                <p class="caption">2022-05 La Jolla Shore</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/sunset4.jpeg" alt="Sunset 5">
+                <p class="caption">2024-05 La Jolla Shore</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/sunset5.jpeg" alt="Sunset 6">
+                <p class="caption">2022-12 NYC</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/sunset6.jpeg" alt="Sunset 6">
+                <p class="caption">2021-11 La Jolla Cove</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/sunset7.jpeg" alt="Sunset 6">
+                <p class="caption">2025-01 San Diego Zoo</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/sunset8.jpeg" alt="Sunset 6">
+                <p class="caption">2025-01 San Diego Zoo</p>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>© 2024 | Designed by Evelyn</p>
+    </footer>
+
+    <script>
+        function scrollToGallery() {
+            document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

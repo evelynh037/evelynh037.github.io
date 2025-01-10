@@ -119,12 +119,44 @@ When I’m not deep in data, you can find me enjoying a good movie, catching a s
 
   </div>
 </div>
-[Explore more project my GitHub page! ](https://github.com/evelynh037)
+Explore more projects in [my GitHub page! ](https://github.com/evelynh037)
 Dive in and join me as I continue creating, learning, and growing! 🚀✨
+
 
 <span class='anchor' id='Something'></span>
 # 👀 Something else
-[🌅 A Stunning Sunset I Captured at La Jolla Shores
-](https://drive.google.com/file/d/1LlIU1pRL0dBsFCArbOZ4w5rvLrFnvQmw/view?usp=sharing)
-
-[💅 Nail Art I Created for Myself](https://drive.google.com/file/d/1uT7KVY08saBHqf6StVbcMGW_plXoixFg/view?usp=sharing)
+<section id="something-else" style="background-color:rgb(255, 255, 255); padding: 0em 0em; font-family: 'Arial', sans-serif;">
+    <h2></h2>
+    <p > </p>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2em; max-width:900px; margin: 0 auto;">
+        <!-- First Card -->
+        <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+            <a href="/_pages/sunset.html" style="text-decoration: none; color: inherit;">
+                <img src="images/sunset_cover.jpeg" alt="Sunset" style="width: 100%; display: block;">
+                <div style="padding: 1.5em; text-align: center;">
+                    <h3 style="font-size: 1.5em; color: #333;">🌅 Stunning Sunsets</h3>
+                    <p style="color: #777; font-size: 1em;">Experience the moments through my lens</p>
+                </div>
+            </a>
+        </div>
+        <!-- Second Card -->
+        <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+            <a href="/_pages/nail.html" style="text-decoration: none; color: inherit;">
+                <img src="images/nail_cover.jpeg" alt="Nail Art" style="width: 100%; display: block;">
+                <div style="padding: 1.5em; text-align: center;">
+                    <h3 style="font-size: 1.5em; color: #333;">💅 Nail Art</h3>
+                    <p style="color: #777; font-size: 1em;"> Find the Artistic Side of Me</p>
+                </div>
+            </a>
+        </div>
+        <div style="background-color: white; border-radius: 5px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+            <a href="/_pages/piano.html" style="text-decoration: none; color: inherit;">
+                <img src="images/music_cover.jpeg" alt="Nail Art" style="width: 100%; display: block;">
+                <div style="padding: 1.5em; text-align: center;">
+                    <h3 style="font-size: 1.5em; color: #333;">🎵 Piano Clips </h3>
+                    <p style="color: #777; font-size: 1em;"> Explore the Music Side of Me</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>

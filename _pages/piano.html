@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Piano Clips</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9; /* Soft background */
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            text-align: center;
+            background: linear-gradient(135deg,  #9960e2, #806dfb);
+            color: white;
+            clip-path: ellipse(150% 100% at 50% 0%);
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 3em;
+            font-family: 'Georgia', serif;
+            margin: 0 0 0.5em;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid white;
+            width: 0;
+            animation: typing 4s steps(40, end) infinite, reset 6s steps(1, end) infinite;
+        }
+        header p {
+            font-size: 1.2em;
+            font-weight: 300;
+            margin-top: 20px;
+            opacity: 0;
+            animation: fadeIn 2s ease 1s forwards;
+        }
+        @keyframes typing {
+            0% { width: 0; }
+            50% { width: 70%; } /* Fully typed */
+            90% { width: 70%; } /* Pause at full text */
+            100% { width: 0; }  /* Start retyping */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        /* Arrow Button */
+        .arrow-button {
+            position: absolute;
+            bottom: 30px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            outline: none;
+            animation: bounce 1.5s infinite;
+        }
+        .arrow-button img {
+            width: 40px;
+            height: auto;
+            filter: invert(1); /* White arrow */
+        }
+
+        /* Piano Clips Section */
+        .clips {
+            padding: 2em;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .clip-item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 1em;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .clip-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        .clip-item p {
+            margin: 0 0 1em;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .clip-item iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2em 0;
+            background: #6A5ACD;
+            color: white;
+            font-size: 1em;
+            font-weight: 300;
+        }
+        footer p {
+            margin: 0;
+        }
+        footer a {
+            color: #FFD1C4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .clips {
+                grid-template-columns: 1fr;
+            }
+            .clip-item iframe {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-family: 'Times New Roman', serif;">Piano Clips Played by Me</h1>
+        <p style="font-family: 'Times New Roman', serif; max-width: 800px; margin: 20px auto; font-size: 1.2em; line-height: 1.8em; text-align: center;">
+            I started playing the piano in kindergarten. Preparing for the grade examinations each year meant summers filled with endless hours of practice. Every day from 1 PM to 6 PM</strong>, while other kids laughed and played outside, I was stuck indoors with a clock beside me and a deck of poker cards by my bench, counting how many times I needed to play each piece.
+        </p>
+        <p style="font-family: 'Times New Roman', serif; max-width: 800px; margin: 20px auto; font-size: 1.2em; line-height: 1.8em; text-align: center;">
+            I once told my mom I’d smash the piano the moment I earned my Grade 10 certificate—that’s how much I hated it. But looking back, I realize it wasn’t the piano I despised—it was the discipline and effort it demanded.
+        </p>
+        <p style="font-family: 'Times New Roman', serif; max-width: 800px; margin: 20px auto; font-size: 1.2em; line-height: 1.8em; text-align: center;">
+            Over time, I grew to love the challenge</strong>, take pride in my progress, and feel the joy that only music can bring. And most importantly? The piano is still there.
+        </p>
+        <button class="arrow-button" onclick="scrollToClips()">
+            <img src="https://cdn-icons-png.flaticon.com/512/709/709586.png" alt="Down Arrow">
+        </button>
+    </header>
+    
+    
+
+    <main>
+        <section class="clips" id="clips">
+            <div class="clip-item">
+                <iframe src="https://drive.google.com/file/d/1UbcBjreyjQnEF6FHbmQD-AloJDqGYKya/preview" allow="autoplay"></iframe>
+            </div>
+            <div class="clip-item">
+                <iframe src="https://drive.google.com/file/d/1zTy8sZVDuUudPSj4ljahwlyctAU5ZlOE/preview" allow="autoplay"></iframe>
+            </div>
+            <div class="clip-item">
+                <iframe src="https://drive.google.com/file/d/1-eaIlMHQUYSn8glOoVlavKTMFyI6QACv/preview" allow="autoplay"></iframe>
+            </div>
+            <div class="clip-item">
+                <iframe src="https://drive.google.com/file/d/1QXCIok45IJ_G_z8tWbhmpA1V3NXb-CPj/preview" allow="autoplay"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 | Designed by Evelyn</p>
+    </footer>
+
+    <script>
+        function scrollToClips() {
+            document.getElementById('clips').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

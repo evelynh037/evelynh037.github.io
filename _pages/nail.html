@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Nail Art Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f4f1; /* Soft background */
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        /* Header with Typing Effect */
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            text-align: center;
+            background: linear-gradient(135deg, #FF9E80, #FF6F61);
+            color: white;
+            clip-path: ellipse(150% 100% at 50% 0%);
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        header h1 {
+            font-size: 3em;
+            font-family: 'Georgia', serif;
+            margin: 0 0 0.5em;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid white;
+            width: 0;
+            animation: typing 4s steps(40, end) infinite, reset 6s steps(1, end) infinite;
+        }
+        header p {
+            font-size: 1.2em;
+            font-weight: 300;
+            margin-top: 20px;
+            opacity: 0;
+            animation: fadeIn 2s ease 1s forwards;
+        }
+
+        @keyframes typing {
+            0% { width: 0; }
+            50% { width: 70%; } /* Fully typed */
+            90% { width: 70%; } /* Pause at full text */
+            100% { width: 0; }  /* Start retyping */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        /* Arrow Button */
+        .arrow-button {
+            position: absolute;
+            bottom: 30px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            outline: none;
+            animation: bounce 1.5s infinite;
+        }
+        .arrow-button img {
+            width: 40px;
+            height: auto;
+            filter: invert(1); /* White arrow */
+        }
+
+
+
+        /* Gallery */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two images per row */
+            gap: 20px;
+            padding: 2em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .gallery-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .caption {
+            font-size: 1em;
+            color: #666;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2em 0;
+            background: #FF6F61;
+            color: white;
+            font-size: 1em;
+            font-weight: 300;
+        }
+        footer p {
+            margin: 0;
+        }
+        footer a {
+            color: #FFD1C4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr; /* One image per row on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nail Arts made by Me</h1>
+        <p style="font-family: 'Times New Roman', serif; max-width: 800px; margin: 20px auto; font-size: 1.2em; line-height: 1.8em; text-align: center;">
+            I’ve always thought of myself as someone who isn’t artistic—if you asked me to draw something, no joke, it would look like a child’s doodle. But I’ve always had a deep love for colors. Instead of drawing, I use color blocks to express my emotio and personality—just like MBTI! That’s how my love for nail art was born. Each design feels like a tiny canvas, where colors tell a story.
+        </p>
+        <button class="arrow-button" onclick="scrollToGallery()">
+            <img src="https://cdn-icons-png.flaticon.com/512/709/709586.png" alt="Down Arrow">
+        </button>
+    </header>
+
+    <main>
+        <section class="gallery" id="gallery">
+            <div class="gallery-item">
+                <img src="/images/nail1.jpeg" alt="Elegant Red Design">
+                <p class="caption">2022-11</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/nail2.jpeg" alt="Minimalist Pastels">
+                <p class="caption">2024-10</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/nail3.jpeg" alt="Vibrant Florals">
+                <p class="caption">2023-06</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/nail4.jpeg" alt="Abstract Art">
+                <p class="caption">2023-12</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/nail5.jpeg" alt="Glitter Glam">
+                <p class="caption">2023-07</p>
+            </div>
+            <div class="gallery-item">
+                <img src="/images/nail6.jpeg" alt="Classic French Tips">
+                <p class="caption">2024-08 </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 | Designed by Evelyn</p>
+    </footer>
+
+    <script>
+        function scrollToGallery() {
+            document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

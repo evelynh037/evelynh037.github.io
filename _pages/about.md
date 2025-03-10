@@ -44,6 +44,33 @@ When I’m not deep in data, you can find me enjoying a good movie, catching a s
 <div class='paper-box' >
   <div class='paper-box-image'>
     <div>
+      <img src='images/capstone_cover.png' alt="Project Image" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [Causal Discovery and Deep learning: Ensemble Deep Learning for Stock Return Prediction in Volatile Markets](https://acai1031.github.io/DSC180B-Capstone-Website/)
+  
+
+  Financial market volatility, driven by economic conditions, corporate shocks, and investor behavior, makes stock return forecasting highly challenging.
+
+Traditional methods, such as macroeconomic analysis and sentiment analysis, have limitations in capturing the complex relationships between stock returns and external factors.
+
+Our goal is to develop an advanced stock return prediction framework that leverages causal discovery algorithms to enhance interpretability and accuracy.
+
+  [link to github](https://github.com/VivianZhao12/CAPSTONE-stockreturn)
+
+  [link to report](https://acai1031.github.io/DSC180B-Capstone-Website/docs/report.pdf)
+  
+  [link to poster](https://acai1031.github.io/DSC180B-Capstone-Website/docs/poster.pdf)
+
+  </div>
+</div>
+
+
+<div class='paper-box' >
+  <div class='paper-box-image'>
+    <div>
       <img src='images/twitter_project_cover.jpg' alt="Project Image" width="100%">
     </div>
   </div>

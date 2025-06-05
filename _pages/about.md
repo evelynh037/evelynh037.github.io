@@ -23,7 +23,7 @@ When I’m not deep in data, you can find me enjoying a good movie, catching a s
 
 <span class='anchor' id='Educations'></span>
 # 📖 Educations
-- *2019.06 - 2025.07 (now)* Bachelor of Science, University of California, San Diego
+- *2019.06 - 2025.06 * Bachelor of Science, University of California, San Diego
 
 <span class='anchor' id='Research'></span>
 # 🔬 Research

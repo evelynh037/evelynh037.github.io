@@ -161,8 +161,8 @@ Dive in and join me as I continue creating, learning, and growing! 🚀✨
             <a href="/_pages/sunset.html" style="text-decoration: none; color: inherit;">
                 <img src="images/sunset_cover.jpeg" alt="Sunset" style="width: 100%; display: block;">
                 <div style="padding: 1.5em; text-align: center;">
-                    <h3 style="font-size: 1.5em; color: #333;">🌅 Stunning Sunsets</h3>
-                    <p style="color: #777; font-size: 1em;">Experience the moments through my lens</p>
+                    <h3 style="font-size: 1.5em; color: #333;">🌅 Sunsets</h3>
+                    <!-- <p style="color: #777; font-size: 1em;">Experience the moments through my lens</p> -->
                 </div>
             </a>
         </div>
@@ -172,7 +172,7 @@ Dive in and join me as I continue creating, learning, and growing! 🚀✨
                 <img src="images/nail_cover.jpeg" alt="Nail Art" style="width: 100%; display: block;">
                 <div style="padding: 1.5em; text-align: center;">
                     <h3 style="font-size: 1.5em; color: #333;">💅 Nail Art</h3>
-                    <p style="color: #777; font-size: 1em;"> Find the Artistic Side of Me</p>
+                    <!-- <p style="color: #777; font-size: 1em;"> Find the Artistic Side of Me</p> -->
                 </div>
             </a>
         </div>
@@ -180,8 +180,8 @@ Dive in and join me as I continue creating, learning, and growing! 🚀✨
             <a href="/_pages/piano.html" style="text-decoration: none; color: inherit;">
                 <img src="images/music_cover.jpeg" alt="Nail Art" style="width: 100%; display: block;">
                 <div style="padding: 1.5em; text-align: center;">
-                    <h3 style="font-size: 1.5em; color: #333;">🎵 Piano Clips </h3>
-                    <p style="color: #777; font-size: 1em;"> Explore the Music Side of Me</p>
+                    <h3 style="font-size: 1.5em; color: #333;">🎵 Music Clips </h3>
+                    <!-- <p style="color: #777; font-size: 1em;"> Explore the Music Side of Me</p> -->
                 </div>
             </a>
         </div>

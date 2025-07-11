@@ -23,12 +23,20 @@ When I’m not deep in data, you can find me enjoying a good movie, catching a s
 
 <span class='anchor' id='Educations'></span>
 # 📖 Educations
-- *2019.06 - 2025.06 * Bachelor of Science, University of California, San Diego
+- *2019.09z - 2025.06*: Bachelor of Science, University of California, San Diego
+- *2025.08 - 2026.12*: MLDS, Northwestern University
 
 <span class='anchor' id='Research'></span>
 # 🔬 Research
 - *2024.04 - present*:    Undergraduate Researcher at [MixLab @ UCSD HDSI](https://maitrix.org/about/)
 - *2024.01 - 2024.04* :    Undergraduate Researcher at [The Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/undergrad-profiles/huang-x.html)
+ 
+<p><strong>Do Vision-Language Models Have an Internal World Model? Towards an Atomic Evaluation</strong></p>
+<p>
+Qiyue Gao*, Xinyu Pi*, Kevin Liu, Junrong Chen, Ruolan Yang, Xinqi Huang, Xinyu Fang, Lu Sun, et al. 
+  <a href="https://arxiv.org/abs/2506.21876" target="_blank">arXiv:2506.21876</a> · 
+  <a href="https://wm-abench.maitrix.org/" target="_blank">Website</a>
+</p>
 
 
 

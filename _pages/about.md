@@ -17,20 +17,25 @@ redirect_from:
 
 <span class='anchor' id='About-me'></span>
 # 🙋‍♀️ About me
-Hi! I’m Evelyn, a fourth-year undergraduate student at UC San Diego, double majoring in Data Science and Mathematics-Economics. I’m passionate about combining data analytics with my domain knowledge to craft AI-powered solutions that reflect my commitment to thoughtfulness, responsibility, and humanity.
+Hi! I’m Evelyn, a Master’s student in Machine Learning and Data Science at Northwestern University, previously graduated from UC San Diego with degrees in Data Science and Joint Mathematics and Economics. I’m passionate about combining data analytics with my domain knowledge to craft AI-powered solutions that reflect my commitment to thoughtfulness, responsibility, and humanity.
 
 When I’m not deep in data, you can find me enjoying a good movie, catching a stunning sunset at La Jolla Shores (it’s the best!), or making myself to a fresh manicure. I’m all about finding joy in the little things and keeping life vibrant and fun! ✨
 
 <span class='anchor' id='Educations'></span>
 # 📖 Educations
-- *2019.09z - 2025.06*: Bachelor of Science, University of California, San Diego
 - *2025.08 - 2026.12*: MLDS, Northwestern University
+- *2019.09 - 2025.06*: Bachelor of Science, University of California, San Diego
+
+
+<span class='anchor' id='Internship'></span>
+# 💻📝 Internships
+- *2024.08 - 2024.09*: Data Analyst Intern at [POIZON](https://www.poizon.com/?srsltid=AfmBOor8QRby4vG1Z0xDrKSiUV0dd-SEuqfu7PAvYC8Wv3ocI-tVeOPU)
+- *2023.08 - 2023.10* : Business Analyst Intern at [Arthur D. Little](https://www.adlittle.com/en)
+
 
 <span class='anchor' id='Research'></span>
 # 🔬 Research
 - *2024.04 - present*:    Undergraduate Researcher at [MixLab @ UCSD HDSI](https://maitrix.org/about/)
-- *2024.01 - 2024.04* :    Undergraduate Researcher at [The Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/undergrad-profiles/huang-x.html)
- 
 <p><strong>Do Vision-Language Models Have an Internal World Model? Towards an Atomic Evaluation</strong></p>
 <p>
 Qiyue Gao*, Xinyu Pi*, Kevin Liu, Junrong Chen, Ruolan Yang, Xinqi Huang, Xinyu Fang, Lu Sun, et al. 
@@ -38,14 +43,8 @@ Qiyue Gao*, Xinyu Pi*, Kevin Liu, Junrong Chen, Ruolan Yang, Xinqi Huang, Xinyu 
   <a href="https://wm-abench.maitrix.org/" target="_blank">Website</a>
 </p>
 
-
-
-<span class='anchor' id='Internship-Teaching'></span>
-# 💻📝 Internships and Teaching 
-- *2023.09 - present* : I have been a Tutor for Math20A and Math10B, as well as an Instructional Assistant for Econ120A and Cogs9 at UC San Diego, supporting these courses during different quarters.
-- *2024.08 - 2024.09*: Data Analyst Intern at [POIZON](https://www.poizon.com/?srsltid=AfmBOor8QRby4vG1Z0xDrKSiUV0dd-SEuqfu7PAvYC8Wv3ocI-tVeOPU)
-- *2023.08 - 2023.10* : Business Analyst Intern at [Arthur D. Little](https://www.adlittle.com/en)
-
+- *2024.01 - 2024.04* :    Undergraduate Researcher at [The Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/undergrad-profiles/huang-x.html)
+ 
 <span class='anchor' id='Project'></span>
 # 🧠 Projects
 

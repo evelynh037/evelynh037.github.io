@@ -17,37 +17,95 @@ redirect_from:
 
 <span class='anchor' id='About-me'></span>
 # 🙋‍♀️ About me
-Hi! I’m Evelyn, a Master’s student in Machine Learning and Data Science at Northwestern University, previously graduated from UC San Diego with degrees in Data Science and Joint Mathematics and Economics. I’m passionate about combining data analytics with my domain knowledge to craft AI-powered solutions that reflect my commitment to thoughtfulness, responsibility, and humanity.
+Hi! I’m Evelyn, a Master’s student in the Machine Learning and Data Science (MLDS) program at Northwestern University, previously graduating from UC San Diego with dual degree in Data Science and Mathematics & Economics. I’m passionate about leveraging data analytics and domain expertise to build AI solutions that are thoughtful, responsible, and human-centered.
 
-When I’m not deep in data, you can find me enjoying a good movie, catching a stunning sunset at La Jolla Shores (it’s the best!), or making myself to a fresh manicure. I’m all about finding joy in the little things and keeping life vibrant and fun! ✨
+I am seeking a 2026 Summer Internship as a Data Scientist, Machine Learning Engineer, Data Analyst, or Business Intelligence Engineer. Driven by curiosity and a commitment to lifelong learning, I continuously explore new technologies, frameworks, and methodologies to stay at the forefront of AI and machine learning innovation.
+
+Please feel free to reach out at xinqihuang2026@u.northwestern.edu if my experience and skill set align with opportunities you’d like to discuss.
+
+When I’m not deep in data, you can find me enjoying a good movie, watching sunsets wherever I am (La Jolla Shores is still my favorite!), or giving myself a fresh manicure. I’m all about finding joy in the little things and keeping life vibrant and fun! ✨
 
 <span class='anchor' id='Educations'></span>
 # 📖 Educations
-- *2025.08 - 2026.12*: MLDS, Northwestern University
-- *2019.09 - 2025.06*: Bachelor of Science, University of California, San Diego
+- *2025.09 - 2026.12*: Machine Learning and Data Science (MLDS), Northwestern University
+- *2021.09 - 2025.06*: Bachelor of Science in Data Science and Joint Mathematics–Economics, UC San Diego
+
 
 
 <span class='anchor' id='Internship'></span>
-# 💻📝 Internships
-- *2024.08 - 2024.09*: Data Analyst Intern at [POIZON](https://www.poizon.com/?srsltid=AfmBOor8QRby4vG1Z0xDrKSiUV0dd-SEuqfu7PAvYC8Wv3ocI-tVeOPU)
+# 💻📝 Internships and Experiences
+- *2025.09 - Present*: Data Scientist (Industry Practicum) at Mintel
+- *2024.07 - 2024.09*: Data Science Intern at [POIZON](https://www.poizon.com/?srsltid=AfmBOor8QRby4vG1Z0xDrKSiUV0dd-SEuqfu7PAvYC8Wv3ocI-tVeOPU)
 - *2023.08 - 2023.10* : Business Analyst Intern at [Arthur D. Little](https://www.adlittle.com/en)
 
 
-<span class='anchor' id='Research'></span>
-# 🔬 Research
-- *2024.04 - present*:    Undergraduate Researcher at [MixLab @ UCSD HDSI](https://maitrix.org/about/)
+<span class='anchor' id='Research_and_Publications'></span>
+# 🔬 Research and Publications
+- *2024.04 - 2025.07*: Machine Learning Research Assistant at [MixLab @ UCSD HDSI](https://maitrix.org/about/)
 {% raw %}
+- *2024.01 - 2024.04* : sUndergraduate Researcher at [The Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/undergrad-profiles/huang-x.html)
+
 <p><strong>Do Vision-Language Models Have an Internal World Model? Towards an Atomic Evaluation</strong></p>
-<p>Qiyue Gao*, Xinyu Pi*, Kevin Liu, Junrong Chen, Ruolan Yang, Xinqi Huang, Xinyu Fang, Lu Sun, et al.</p>
-<p>ACL 2025</p>
+<p>Qiyue Gao*, Xinyu Pi*, Kevin Liu, Junrong Chen, Ruolan Yang, <strong>Xinqi Huang</strong>, Xinyu Fang, Lu Sun, et al.</p>
+<p>ACL 2025 Findings</p>
 <p><a href="https://arxiv.org/abs/2506.21876" target="_blank">arXiv:2506.21876</a></p>
 <p><a href="https://wm-abench.maitrix.org/" target="_blank">Website</a></p>
 {% endraw %}
 
-- *2024.01 - 2024.04* :    Undergraduate Researcher at [The Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/undergrad-profiles/huang-x.html)
+<p><strong>PAN: A World Model for General, Interactable, and Long-Horizon
+World Simulation</strong></p>
+<p>PAN Team, Institute of Foundation Models, as Contributors to the evaluation section</p>
+<p><a href="https://arxiv.org/pdf/2511.09057" target="_blank">paper</a></p>
+<p><a href="https://ifm.mbzuai.ac.ae/pan/" target="_blank">Pan World Model Website</a></p>
+
+
  
 <span class='anchor' id='Project'></span>
 # 🧠 Projects
+
+<div class='paper-box' >
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/vlm.png' alt="Project Image" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  [VLM Benchmark: WM-ABench](https://wm-abench.maitrix.org/)
+  
+  **Using Maniskill simualtor, we generated 37K+ image-based Q&A scenarios for benchmarking 11 commercial and open-source Vision-Language Models (including GPT, Gemini, Claude, and Qwen) perception and prediction capability for downstream robotic manipulation tasks.**
+
+  [link to video demo](https://www.youtube.com/watch?v=Yek6PInUoWY&t=2s)
+
+  [link to dataset](https://huggingface.co/datasets/maitrix-org/WM-ABench)
+
+  [link to code](https://github.com/gaoq111/benchmark_maniskill2)
+
+  </div>
+</div>
+
+
+<div class='paper-box' >
+  <div class='paper-box-image'>
+    <div>
+      <img src='images/ebird.png' alt="Project Image" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+  ETL and Data Visualization: Ebird spot map
+  
+  **Explore real-time bird migration through an automated data pipeline! Using ebird api, Apache Airflow, PostgreSQL, Docker, SQL, HTML, Streamlit and Prediction Modeling, we built an end-to-end system delivering up-to-date bird location insights with role-specific visualizations and a reliable two-stage deployment.**
+
+  [link to github](https://github.com/evelynh037/ebird-data-analysis)
+
+  [Streamlit app demo](https://ebird-data-analysis-79q4xqgr2x6fgjkgfonpzs.streamlit.app )
+
+  [Demo map](https://evelynh037.github.io/ebird-data-analysis/)
+
+  </div>
+</div>
+
 
 <div class='paper-box' >
   <div class='paper-box-image'>
@@ -62,9 +120,9 @@ When I’m not deep in data, you can find me enjoying a good movie, catching a s
 
   Financial market volatility, driven by economic conditions, corporate shocks, and investor behavior, makes stock return forecasting highly challenging.
 
-Traditional methods, such as macroeconomic analysis and sentiment analysis, have limitations in capturing the complex relationships between stock returns and external factors.
+  **Traditional methods, such as macroeconomic analysis and sentiment analysis, have limitations in capturing the complex relationships between stock returns and external factors.**
 
-Our goal is to develop an advanced stock return prediction framework that leverages causal discovery algorithms to enhance interpretability and accuracy.
+  **Our goal is to develop an advanced stock return prediction framework that leverages causal discovery algorithms to enhance interpretability and accuracy.**
 
   [link to github](https://github.com/VivianZhao12/CAPSTONE-stockreturn)
 

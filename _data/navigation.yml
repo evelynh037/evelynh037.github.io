@@ -7,13 +7,13 @@ main:
   - title: "Education"
     url: "/#Educations"
 
-  - title: "Research"
-    url: "/#Research"
+  - title: "Internship"
+    url: "/#Internship"
 
-  - title: "Internship and Teaching"
-    url: "/#Internship-Teaching"
+  - title: "Research and Publications"
+    url: "/#Research_and_Publications "
   
-  - title: "Project"
+  - title: "Projects"
     url: "/#Project"
 
   - title: "Something Else"

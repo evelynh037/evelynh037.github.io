@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xinqi Huang"
+title                    : "Xinqi(Evelyn) Huang"
 description              : ""
 repository               : "evelynh037/evelynh037.github.io"
 google_scholar_stats_use_cdn : true
@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Xinqi Huang"
   avatar           : "images/my_photo.jpg"
-  bio              : "Data Science & Economics and Mathematics Student at UC San Diego"
-  location         : "San Diego, CA"
-  email            : "xih037@ucsd.edu"
+  bio              : "MLDS @ Northwestern University | Data Science & Economics and Mathematics @ UC San Diego"
+  location         : "Evanston, IL"
+  email            : "xinqihuang2026@u.northwestern.edu"
   github           : "evelynh037"
   linkedin         : "xih1208"
 

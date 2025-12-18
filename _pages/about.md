@@ -46,7 +46,9 @@ When I’m not deep in data, you can find me enjoying a good movie, watching sun
 - *2024.01 - 2024.04* : sUndergraduate Researcher at [The Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/undergrad-profiles/huang-x.html)
 
 <p><strong>Do Vision-Language Models Have an Internal World Model? Towards an Atomic Evaluation</strong></p>
-<p>Qiyue Gao*, Xinyu Pi*, Kevin Liu, Junrong Chen, Ruolan Yang, <strong>Xinqi Huang</strong>, Xinyu Fang, Lu Sun, et al.</p>
+<p>Qiyue Gao*, Xinyu Pi*, Kevin Liu, Junrong Chen, Ruolan Yang, <strong>Xinqi Huang</strong>, Xinyu Fang, Lu Sun, Gautham Kishore, Bo Ai, Stone Tao, Mengyang Liu, Jiaxi Yang, Chao-Jung Lai,
+Chuanyang Jin, Jiannan Xiang, Benhao Huang, Zeming Chen,
+David Danks, Hao Su, Tianmin Shu, Ziqiao Ma, Lianhui Qin, Zhiting Hu </p>
 <p>ACL 2025 Findings</p>
 <p><a href="https://arxiv.org/abs/2506.21876" target="_blank">arXiv:2506.21876</a></p>
 <p><a href="https://wm-abench.maitrix.org/" target="_blank">Website</a></p>

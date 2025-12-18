@@ -57,7 +57,7 @@ David Danks, Hao Su, Tianmin Shu, Ziqiao Ma, Lianhui Qin, Zhiting Hu </p>
 <p><strong>PAN: A World Model for General, Interactable, and Long-Horizon
 World Simulation</strong></p>
 <p>PAN Team, Institute of Foundation Models, as Contributors to the evaluation section</p>
-<p><a href="[[https://arxiv.org/pdf/2511.09057](https://arxiv.org/abs/2511.09057)]([https://huggingface.co/papers/2511.09057](https://arxiv.org/abs/2511.09057))" target="_blank">paper</a></p>
+<p><a href="https://arxiv.org/abs/2511.09057" paper</a></p>
 <p><a href="https://ifm.mbzuai.ac.ae/pan/" target="_blank">Pan World Model Website</a></p>
 
 

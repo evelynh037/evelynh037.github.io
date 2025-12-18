@@ -36,14 +36,14 @@ When I’m not deep in data, you can find me enjoying a good movie, watching sun
 # 💻📝 Internships and Experiences
 - *2025.09 - Present*: Data Scientist (Industry Practicum) at Mintel
 - *2024.07 - 2024.09*: Data Science Intern at [POIZON](https://www.poizon.com/?srsltid=AfmBOor8QRby4vG1Z0xDrKSiUV0dd-SEuqfu7PAvYC8Wv3ocI-tVeOPU)
-- *2023.08 - 2023.10* : Business Analyst Intern at [Arthur D. Little](https://www.adlittle.com/en)
+- *2023.07 - 2023.09* : Business Analyst Intern at [Arthur D. Little](https://www.adlittle.com/en)
 
 
 <span class='anchor' id='Research_and_Publications'></span>
 # 🔬 Research and Publications
 - *2024.04 - 2025.07*: Machine Learning Research Assistant at [MixLab @ UCSD HDSI](https://maitrix.org/about/)
 {% raw %}
-- *2024.01 - 2024.04* : sUndergraduate Researcher at [The Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/undergrad-profiles/huang-x.html)
+- *2024.01 - 2024.04* : Undergraduate Researcher at [The Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/undergrad-profiles/huang-x.html)
 
 <p><strong>Do Vision-Language Models Have an Internal World Model? Towards an Atomic Evaluation</strong></p>
 <p>Qiyue Gao*, Xinyu Pi*, Kevin Liu, Junrong Chen, Ruolan Yang, <strong>Xinqi Huang</strong>, Xinyu Fang, Lu Sun, Gautham Kishore, Bo Ai, Stone Tao, Mengyang Liu, Jiaxi Yang, Chao-Jung Lai,

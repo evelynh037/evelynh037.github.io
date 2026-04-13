@@ -60,6 +60,9 @@ World Simulation</strong></p>
 <p><a href="https://arxiv.org/abs/2511.09057" target="_blank"> paper</a></p>
 <p><a href="https://ifm.mbzuai.ac.ae/pan/" target="_blank">Pan World Model Website</a></p>
 
+<p><strong>World Reasoning Arena</strong></p>
+<p>PAN Team Institute of Foundation Models: Qiyue Gao, Kun Zhou, Jiannan Xiang, Zihan Liu, Dequan Yang, Junrong Chen, Arif Ahmad, Cong Zeng, Ganesh Bannur, <strong>Xinqi Huang</strong>, Zheqi Liu, Yi Gu, Yichi Yang, Guangyi Liu, Zhiting Hu, Zhengzhong Liu, Eric Xing</p>
+<p><a href="https://arxiv.org/abs/2603.25887" target="_blank">paper</a></p>
 
  
 <span class='anchor' id='Project'></span>

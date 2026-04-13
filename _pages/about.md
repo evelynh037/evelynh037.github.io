@@ -45,7 +45,7 @@ When I’m not deep in data, you can find me enjoying a good movie, watching sun
 {% raw %}
 - *2024.01 - 2024.04* : Undergraduate Researcher at [The Economic Research Lab](https://economics.ucsd.edu/undergraduate-program/resources/undergraduate-graduate-research-lab/undergrad-profiles/huang-x.html)
 
-<p><strong>Do Vision-Language Models Have an Internal World Model? Towards an Atomic Evaluation</strong></p>
+<p><strong>1. Do Vision-Language Models Have an Internal World Model? Towards an Atomic Evaluation</strong></p>
 <p>Qiyue Gao*, Xinyu Pi*, Kevin Liu, Junrong Chen, Ruolan Yang, <strong>Xinqi Huang</strong>, Xinyu Fang, Lu Sun, Gautham Kishore, Bo Ai, Stone Tao, Mengyang Liu, Jiaxi Yang, Chao-Jung Lai,
 Chuanyang Jin, Jiannan Xiang, Benhao Huang, Zeming Chen,
 David Danks, Hao Su, Tianmin Shu, Ziqiao Ma, Lianhui Qin, Zhiting Hu </p>
@@ -54,13 +54,13 @@ David Danks, Hao Su, Tianmin Shu, Ziqiao Ma, Lianhui Qin, Zhiting Hu </p>
 <p><a href="https://wm-abench.maitrix.org/" target="_blank">Website</a></p>
 {% endraw %}
 
-<p><strong>PAN: A World Model for General, Interactable, and Long-Horizon
+<p><strong>2. PAN: A World Model for General, Interactable, and Long-Horizon
 World Simulation</strong></p>
 <p>PAN Team, Institute of Foundation Models, as contributor to the data and evaluation section</p>
 <p><a href="https://arxiv.org/abs/2511.09057" target="_blank"> paper</a></p>
 <p><a href="https://ifm.mbzuai.ac.ae/pan/" target="_blank">Pan World Model Website</a></p>
 
-<p><strong>World Reasoning Arena</strong></p>
+<p><strong>3. World Reasoning Arena</strong></p>
 <p>PAN Team Institute of Foundation Models: Qiyue Gao, Kun Zhou, Jiannan Xiang, Zihan Liu, Dequan Yang, Junrong Chen, Arif Ahmad, Cong Zeng, Ganesh Bannur, <strong>Xinqi Huang</strong>, Zheqi Liu, Yi Gu, Yichi Yang, Guangyi Liu, Zhiting Hu, Zhengzhong Liu, Eric Xing</p>
 <p><a href="https://arxiv.org/abs/2603.25887" target="_blank">paper</a></p>
 
